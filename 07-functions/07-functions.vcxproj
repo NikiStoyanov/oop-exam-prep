@@ -128,12 +128,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="07-functions.cpp" />
+    <ClCompile Include="ComposedFunction.cpp" />
     <ClCompile Include="Function.cpp" />
+    <ClCompile Include="IntervalRestrictedFunction.cpp" />
     <ClCompile Include="LinearFunction.cpp" />
+    <ClCompile Include="PiecewiseFunction.cpp" />
+    <ClCompile Include="PuncturedFunction.cpp" />
+    <ClCompile Include="QuadraticFunction.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ComposedFunction.h" />
     <ClInclude Include="Function.h" />
+    <ClInclude Include="IntervalRestrictedFunction.h" />
     <ClInclude Include="LinearFunction.h" />
+    <ClInclude Include="PiecewiseFunction.h" />
+    <ClInclude Include="PuncturedFunction.h" />
+    <ClInclude Include="QuadraticFunction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

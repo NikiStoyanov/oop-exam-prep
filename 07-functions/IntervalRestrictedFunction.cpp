@@ -8,6 +8,19 @@ IntervalRestrictedFunction::IntervalRestrictedFunction(const Function& base_func
 	}
 }
 
+IntervalRestrictedFunction::IntervalRestrictedFunction(const IntervalRestrictedFunction& other)
+	: base_function(other.base_function->clone()), lower_bound(other.lower_bound), upper_bound(other.upper_bound) {}
+
+IntervalRestrictedFunction& IntervalRestrictedFunction::operator=(const IntervalRestrictedFunction& other) {
+    if (this != &other) {
+        base_function = other.base_function->clone();
+        lower_bound = other.lower_bound;
+        upper_bound = other.upper_bound;
+    }
+
+    return *this;
+}
+
 std::optional<double> IntervalRestrictedFunction::operator()(double x) const {
 	if (x < lower_bound || x > upper_bound) {
 		return std::nullopt;
