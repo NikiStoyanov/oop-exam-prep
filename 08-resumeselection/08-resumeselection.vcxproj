@@ -133,6 +133,8 @@
     <ClCompile Include="MinExperienceRequirement.cpp" />
     <ClCompile Include="Requirement.cpp" />
     <ClCompile Include="Resume.cpp" />
+    <ClCompile Include="ResumePool.cpp" />
+    <ClCompile Include="ResumeSelectionSystem.cpp" />
     <ClCompile Include="SkillRequirement.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -142,6 +144,8 @@
     <ClInclude Include="Pool.hpp" />
     <ClInclude Include="Requirement.h" />
     <ClInclude Include="Resume.h" />
+    <ClInclude Include="ResumePool.h" />
+    <ClInclude Include="ResumeSelectionSystem.h" />
     <ClInclude Include="SkillRequirement.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

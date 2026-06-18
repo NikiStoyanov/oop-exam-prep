@@ -36,3 +36,8 @@ const std::vector<std::string>& Resume::getSkills() const {
 double Resume::getSalary() const {
     return salary;
 }
+
+std::ostream& operator<<(std::ostream& os, const Resume& r) {
+    os << r.getFirstName() << " " << r.getLastName() << " (" << r.getEmail() << ")";
+    return os;
+}

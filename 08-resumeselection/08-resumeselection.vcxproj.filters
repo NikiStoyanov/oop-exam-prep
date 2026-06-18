@@ -36,6 +36,12 @@
     <ClCompile Include="MaxSalaryRequirement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ResumePool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResumeSelectionSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Resume.h">
@@ -57,6 +63,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Pool.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResumePool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResumeSelectionSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

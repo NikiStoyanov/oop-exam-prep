@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 #include <string>
 #include <vector>
 #include <stdexcept>
@@ -23,5 +24,7 @@ public:
 	unsigned getYearsOfExperience() const;
 	const std::vector<std::string>& getSkills() const;
 	double getSalary() const;
+
+	friend std::ostream& operator<<(std::ostream& os, const Resume& r);
 };
 
