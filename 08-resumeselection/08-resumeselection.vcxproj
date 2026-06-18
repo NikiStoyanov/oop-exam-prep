@@ -104,7 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpp23</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,6 +128,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="08-resumeselection.cpp" />
+    <ClCompile Include="MaxSalaryRequirement.cpp" />
+    <ClCompile Include="MinAgeRequirement.cpp" />
+    <ClCompile Include="MinExperienceRequirement.cpp" />
+    <ClCompile Include="Requirement.cpp" />
+    <ClCompile Include="Resume.cpp" />
+    <ClCompile Include="SkillRequirement.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MaxSalaryRequirement.h" />
+    <ClInclude Include="MinAgeRequirement.h" />
+    <ClInclude Include="MinExperienceRequirement.h" />
+    <ClInclude Include="Pool.hpp" />
+    <ClInclude Include="Requirement.h" />
+    <ClInclude Include="Resume.h" />
+    <ClInclude Include="SkillRequirement.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

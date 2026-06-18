@@ -1,5 +1,8 @@
 #include <iostream>
+#include <print>
+#include "Resume.h"
+#include "ResumePool.h"
 
 int main() {
-    std::cout << "Hello World!\n";
+	Resume r1("Ivan", "Ivanov", "ivan@gmail.com", 25, 5, { "C++", "OOP", "SQL" }, 7000);
 }
