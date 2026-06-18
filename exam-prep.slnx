@@ -1,0 +1,14 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01-restaurants/01-restaurants.vcxproj" Id="e6132b71-238c-4d65-9e7c-2bf01b720530" />
+  <Project Path="02-hospital/02-hospital.vcxproj" Id="2bcf03a8-814c-436a-9798-8ee16e85af2a" />
+  <Project Path="03-cartickets/03-cartickets.vcxproj" Id="58370b5a-78a0-48db-abe6-8d4f6d6f47e0" />
+  <Project Path="04-uservalidationservice/04-uservalidationservice.vcxproj" Id="fb28943e-cb9c-4470-8102-7b2572ac4016" />
+  <Project Path="05-studentsexamadmission/05-studentsexamadmission.vcxproj" Id="d8b5d1d0-11bc-44f4-908d-8bb924ce04df" />
+  <Project Path="06-shopping/06-shopping.vcxproj" Id="6c84462c-1d10-4e05-9444-cf33ed49c0a5" />
+  <Project Path="07-functions/07-functions.vcxproj" Id="166a7538-938f-4520-9ca7-f601047aa746" />
+  <Project Path="08-resumeselection/08-resumeselection.vcxproj" Id="1af9f4a9-598b-4c45-bfe9-e7749c772633" />
+</Solution>
